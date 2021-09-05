@@ -1,0 +1,37 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+public class #SCRIPTNAME# : MonoBehaviour{
+    //=====================================================================
+    //				      VARIABLES 
+    //=====================================================================
+    //===== SINGLETON =====
+    public static #SCRIPTNAME# m_Instance;
+    //===== STRUCT =====
+
+    //===== PUBLIC =====
+
+    //===== PRIVATES =====
+
+    //=====================================================================
+    //				MONOBEHAVIOUR METHOD 
+    //=====================================================================
+    void Awake(){
+        m_Instance = this;
+    }
+
+    void Start(){
+        #NOTRIM#
+    }
+
+    void Update(){
+        #NOTRIM#
+    }
+    //=====================================================================
+    //				    OTHER METHOD
+    //=====================================================================
+}
